@@ -1,2 +1,33 @@
+.container {
+  display: flex;
+}
 
-/* Your CSS Code here. */
+.left-section {
+  width: 20x;
+  background-color: purple;
+  border-right: 5px solid green;
+}
+
+.right-section {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.heading {
+  background-color: purple;
+  padding: 10px;
+}
+
+.heading h1 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.content p {
+  margin: 0;
+}
